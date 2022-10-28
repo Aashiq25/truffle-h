@@ -1,4 +1,4 @@
-FROM node:10.14.2-jessie
+FROM node:fermium-bullseye-slim
 
 # Create app directory
 WORKDIR /usr/src/app
